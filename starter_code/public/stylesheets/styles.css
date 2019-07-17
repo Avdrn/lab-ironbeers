@@ -5,4 +5,179 @@ dark-blue: #0A2C42;
 grey: rgba(145, 145, 145, 0.481);
 font-family: Arial, Helvetica, sans-serif
 */
+
+*{
+    margin:0;
+    padding:0;
+  }
+/*   
+body, html{height:100%;} */
   
+body{
+  text-align:left;
+  position: relative;
+  min-height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  }
+
+  p, h1, h2{
+    padding: 5px
+  }
+
+
+/*-------Nav bar---------*/
+
+.nav-bar {
+  display: flex;
+  position: fixed;
+  width: 100vw;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: #2081C3;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 3vh;
+  margin-top : 0;
+}
+
+.nav-items{
+  display: flex;
+  justify-content: space-around;
+  font-size: 3vh;
+  height: auto;
+  padding: 3vh;
+}
+
+.nav-items a{
+  color: #F7F9F9;
+  text-decoration: none;
+}
+
+/*-------Nav bar---------*/
+
+.footer {
+  display: flex;
+  position: absolute;
+  align-content: flex-end;
+  background-color: #0A2C42;
+  color: #F7F9F9;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 5px;
+  margin: 5px;
+  bottom:0;
+  width:100%;
+  padding:3vh;
+  height:2.5vh;
+  font-size: 3vh;
+  margin-top: -50px;
+}
+
+/*-------------INDEX---------- */
+.btn {
+  background-color: #2081C3;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 3vh;
+  margin: 1vh;
+  border-radius: 15px;
+  box-shadow: #0A2C42;
+}
+
+.btn a {
+  text-decoration: none;
+  color: #F7F9F9;
+  font-size: 3vh; 
+}
+
+.index-container {
+  display: flex;
+  justify-content: center;
+  display: flex;
+
+}
+
+.index-container img {
+  height: 40vh;
+  width: auto;
+}
+
+.btn-box {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+/*--------Beers Partials--------- */
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 150px 0 150px 0;
+}
+
+.flex-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 30%;
+  height: 40%;
+  margin-top : 0
+
+}
+
+.flex-img {
+  display: flex;
+  justify-content: center;
+  width: auto;
+  padding: 5px;
+  margin-top: 5px;
+}
+
+.flex-img img {
+  width: auto;
+  height: 20vh;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.tagline {
+font-style: italic;
+color: rgba(145, 145, 145, 0.481);
+}
+
+/*--------RANDOM BEER--------- */
+
+.flex-container-random {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 150px 0 150px 0;
+}
+
+.flex-box-random {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 60%;
+  height: 90%;
+  margin: 10%;
+}
+
+.description {
+  padding: 10px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+
+li {
+  padding-left: 5%;
+  list-style-position: inside;
+}
+
+p span {
+  font-weight: bold;
+}
+
